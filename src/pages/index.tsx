@@ -1,7 +1,6 @@
 import yayJpg from '../assets/yay.jpg';
 // import "antd/lib/config-provider/style/index.js";
-import './a.css';
-
+require('./a.css');
 
 export function requireStat(name: string) {
   return require(require.resolve(`${name}/package.json'`))
