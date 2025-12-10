@@ -9,12 +9,13 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.6.5",
-    "antd": "^4.24.0"
+    "antd": "^4.24.16",
+    "umi": "^4.6.6"
   },
   "devDependencies": {
-    "@types/react": "^18.0.33",
-    "@types/react-dom": "^18.0.11",
-    "typescript": "^5.0.3"
-  }
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  },
+  "repository": "https://github.com/fireairforce/hmr-runtime-error-repo.git"
 }
