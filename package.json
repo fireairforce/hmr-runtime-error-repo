@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "antd": "^4.24.16",
-    "umi": "^4.6.6"
+    "umi": "^4.6.7",
+    "vscode-oniguruma": "1.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.27",
