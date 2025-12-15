@@ -18,5 +18,10 @@
     "@types/react-dom": "^18.3.7",
     "typescript": "^5.9.3"
   },
+  "pnpm": {
+    "overrides": {
+      "@utoo/pack": "1.0.8"
+    }
+  },
   "repository": "https://github.com/fireairforce/hmr-runtime-error-repo.git"
 }

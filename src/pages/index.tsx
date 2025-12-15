@@ -1,6 +1,6 @@
 import yayJpg from '../assets/yay.jpg';
 // import "antd/lib/config-provider/style/index.js";
-require('./a.css');
+// require('./a.css');
 // import * as onig from 'vscode-oniguruma/release/onig.wasm';
 
 // onig;
@@ -8,6 +8,10 @@ require('./a.css');
 // const onig2 = new URL("https://unpkg.com/vscode-oniguruma@2.0.1/release/onig.wasm");
 
 // onig2;
+
+import a from './a';
+
+a;
 
 export function requireStat(name: string) {
   return require(`${name}`);
