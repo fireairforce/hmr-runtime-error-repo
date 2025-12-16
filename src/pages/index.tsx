@@ -13,6 +13,10 @@ import a from './a';
 
 a;
 
+import { Shape } from '@antv/g-canvas';
+
+Shape
+
 export function requireStat(name: string) {
   return require(`${name}`);
 }
