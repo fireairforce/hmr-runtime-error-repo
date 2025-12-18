@@ -9,13 +9,17 @@ import yayJpg from '../assets/yay.jpg';
 
 // onig2;
 
-import a from './a';
+// import a from './a';
 
-a;
+// a;
 
-import { Shape } from '@antv/g-canvas';
 
-Shape
+// const workerUrl = new URL('./worker.js', import.meta.url);
+// console.log('[Main] Worker URL (absolute):', workerUrl.href);
+
+// import { Shape } from '@antv/g-canvas';
+
+// Shape
 
 export function requireStat(name: string) {
   return require(`${name}`);
@@ -29,7 +33,7 @@ export async function importUrl(url: string) {
 export default function HomePage() {
   return (
     <div>
-      <h2>Yay! Welcome to umi3333!</h2>
+      <h2>Yay! Welcome to umi!</h2>
       <p>
         <img src={yayJpg} width="388" />
       </p>

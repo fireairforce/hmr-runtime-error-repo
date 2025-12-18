@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "antd": "^4.24.16",
-    "umi": "^4.6.7",
+    "umi": "^4.6.8",
     "vscode-oniguruma": "1.7.0",
     "@antv/g-canvas": "0.5.17"
   },
@@ -21,7 +21,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@utoo/pack": "1.0.8"
+      "@utoo/pack": "1.1.0"
     }
   },
   "repository": "https://github.com/fireairforce/hmr-runtime-error-repo.git"
