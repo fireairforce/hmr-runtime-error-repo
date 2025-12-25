@@ -21,14 +21,18 @@ import yayJpg from '../assets/yay.jpg';
 
 // Shape
 
-export function requireStat(name: string) {
-  return require(`${name}`);
-}
+// export function requireStat(name: string) {
+//   return require(`${name}`);
+// }
 
-export async function importUrl(url: string) {
-  return import(`${url}`).then((module) => module.default);
-}
+// export async function importUrl(url: string) {
+//   return import(`${url}`).then((module) => module.default);
+// }
 
+// console.log('NODE_ENV', process.env.NODE_ENV === 'development', process.env.NODE_ENV);
+
+let nodeProcess = process;
+console.log(nodeProcess.versions.node);
 
 export default function HomePage() {
   return (
