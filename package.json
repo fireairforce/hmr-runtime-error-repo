@@ -3,7 +3,7 @@
   "author": "",
   "scripts": {
     "dev": "umi dev",
-    "build": "COMPRESS=none umi build",
+    "build": "umi build",
     "preview": "umi preview",
     "postinstall": "umi setup",
     "setup": "umi setup",
