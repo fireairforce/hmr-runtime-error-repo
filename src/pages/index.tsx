@@ -1,4 +1,5 @@
 import yayJpg from '../assets/yay.jpg';
+import { ReactComponent as Help } from '../assets/help.svg';
 // import "antd/lib/config-provider/style/index.js";
 // require('./a.css');
 // import * as onig from 'vscode-oniguruma/release/onig.wasm';
@@ -41,6 +42,7 @@ export default function HomePage() {
       <p>
         <img src={yayJpg} width="388" />
       </p>
+      <Help key="InfoCircleFilled" />
       <p>
         To get started, edit <code>pages/index.tsx</code> and save to reload.
       </p>

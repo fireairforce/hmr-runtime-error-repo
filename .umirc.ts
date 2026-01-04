@@ -9,7 +9,17 @@ export default defineConfig({
   utoopack: {
     provider: {
       process: 'process'
+    },
+    module: {
+      rules: {
+        "*.svg": {
+          loaders: [
+            require.resolve("@svgr/webpack")
+          ],
+          as: '*.js'
+        }
+      }
     }
-  }
+  },
   // mako: {}
 });

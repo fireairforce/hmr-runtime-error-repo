@@ -4,19 +4,22 @@
   "scripts": {
     "dev": "umi dev",
     "build": "COMPRESS=none umi build",
+    "preview": "umi preview",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"
   },
   "dependencies": {
     "antd": "^4.24.16",
-    "umi": "4.6.15",
+    "umi": "4.6.18",
     "vscode-oniguruma": "1.7.0",
     "@antv/g-canvas": "0.5.17"
   },
   "devDependencies": {
     "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.7",
+    "@umijs/bundler-webpack": "4.6.18",
+    "@svgr/webpack": "8.1.0",
     "typescript": "^5.9.3"
   },
   "repository": "https://github.com/fireairforce/hmr-runtime-error-repo.git"
