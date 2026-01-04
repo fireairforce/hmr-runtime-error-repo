@@ -14,12 +14,27 @@ export default defineConfig({
       rules: {
         "*.svg": {
           loaders: [
-            require.resolve("@svgr/webpack")
+            {
+              loader: require.resolve("@svgr/webpack"),
+              condition: {
+                all: [
+                  // Exclude node_modules (similar to excluding non-source files)
+                  { not: 'foreign' },
+                  // Match JavaScript/TypeScript files
+                  { path: /\.[jt]sx?$/ },
+                ],
+              },
+              options: {
+                exportType: 'named',
+                namedExport: 'ReactComponent',
+                ref: true,
+                svgo: false,
+              }
+            }
           ],
           as: '*.js'
         }
       }
     }
   },
-  // mako: {}
 });

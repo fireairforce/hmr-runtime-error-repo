@@ -32,8 +32,8 @@ import { ReactComponent as Help } from '../assets/help.svg';
 
 // console.log('NODE_ENV', process.env.NODE_ENV === 'development', process.env.NODE_ENV);
 
-let nodeProcess = process;
-console.log(nodeProcess.versions.node);
+// let nodeProcess = process;
+// console.log(nodeProcess.versions.node);
 
 export default function HomePage() {
   return (
